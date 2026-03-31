@@ -1,0 +1,351 @@
+{
+  "current": {
+    "date": "2026-03-31",
+    "selectionSource": "forced",
+    "selectionNote": "studyset-force.txt에서 지정한 파일을 우선 사용했습니다.",
+    "files": [
+      {
+        "slotIndex": 0,
+        "slotTitle": "StudySet 01",
+        "filename": "english.md",
+        "relativePath": "./memory/english.md",
+        "title": "중등 기초 영어 단어",
+        "subject": "영어",
+        "category": "vocabulary",
+        "tags": [
+          "영어",
+          "단어",
+          "중등",
+          "기초"
+        ],
+        "intervalSeconds": 3,
+        "itemCount": 10,
+        "reason": "studyset-force.txt에서 강제 지정했습니다."
+      },
+      {
+        "slotIndex": 1,
+        "slotTitle": "StudySet 02",
+        "filename": "korean.md",
+        "relativePath": "./memory/korean.md",
+        "title": "국어 개념어",
+        "subject": "국어",
+        "category": "concept",
+        "tags": [
+          "국어",
+          "개념",
+          "독해",
+          "시험"
+        ],
+        "intervalSeconds": 3,
+        "itemCount": 10,
+        "reason": "강제 지정 파일과 함께 볼 보조 StudySet을 자동으로 골랐습니다."
+      }
+    ],
+    "context": {
+      "weekday": "tuesday",
+      "schoolSubjects": [
+        "국어",
+        "가정",
+        "수학",
+        "영어",
+        "체육",
+        "주선B"
+      ],
+      "cramSubjects": [
+        "과학",
+        "영어"
+      ]
+    },
+    "fingerprint": "english.md|10|3|2026-03-31 18:51:12||hanmun.md|10|3|2026-03-31 16:42:43||idiom.md|10|3|2026-03-31 16:42:43||korean.md|10|3|2026-03-31 16:42:43||science.md|10|3|2026-03-31 16:42:43||social.md|10|3|2026-03-31 16:42:43##[\"english.md\"]",
+    "contextSignature": "{\"cramSubjects\": [\"과학\", \"영어\"], \"date\": \"2026-03-31\", \"schoolSubjects\": [\"국어\", \"가정\", \"수학\", \"영어\", \"체육\", \"주선B\"], \"weekday\": \"tuesday\"}"
+  },
+  "history": [
+    {
+      "date": "2026-04-01",
+      "selectionSource": "fallback",
+      "selectionNote": "Gemini 선택이 없어서 규칙 기반으로 StudySet을 골랐습니다.",
+      "files": [
+        {
+          "slotIndex": 0,
+          "slotTitle": "StudySet 01",
+          "filename": "science.md",
+          "relativePath": "./memory/science.md",
+          "title": "과학 핵심 용어",
+          "subject": "과학",
+          "category": "concept",
+          "tags": [
+            "과학",
+            "용어",
+            "중등",
+            "시험"
+          ],
+          "intervalSeconds": 3,
+          "itemCount": 10,
+          "reason": "오늘 일정과 최근 이력을 반영한 우선순위가 높아서 선택했습니다."
+        },
+        {
+          "slotIndex": 1,
+          "slotTitle": "StudySet 02",
+          "filename": "social.md",
+          "relativePath": "./memory/social.md",
+          "title": "사회 핵심 용어",
+          "subject": "사회",
+          "category": "concept",
+          "tags": [
+            "사회",
+            "용어",
+            "지리",
+            "일반사회"
+          ],
+          "intervalSeconds": 3,
+          "itemCount": 10,
+          "reason": "첫 번째 선택과 겹치지 않으면서 복습 가치가 높아서 선택했습니다."
+        }
+      ],
+      "context": {
+        "weekday": "wednesday",
+        "schoolSubjects": [
+          "과학",
+          "사회"
+        ],
+        "cramSubjects": [
+          "과학"
+        ]
+      },
+      "savedAt": "2026-03-31 15:35:41",
+      "fingerprint": "english.md|10|3|2026-03-31 15:33:00||hanmun.md|10|3|2026-03-31 15:33:00||idiom.md|10|3|2026-03-31 15:33:00||korean.md|10|3|2026-03-31 15:33:00||science.md|10|3|2026-03-31 15:33:00||social.md|10|3|2026-03-31 15:33:00",
+      "contextSignature": "{\"cramSubjects\": [\"과학\"], \"date\": \"2026-04-01\", \"schoolSubjects\": [\"과학\", \"사회\"], \"weekday\": \"wednesday\"}"
+    },
+    {
+      "date": "2026-04-02",
+      "selectionSource": "fallback",
+      "selectionNote": "Gemini 선택이 없어서 규칙 기반으로 StudySet을 골랐습니다.",
+      "files": [
+        {
+          "slotIndex": 0,
+          "slotTitle": "StudySet 01",
+          "filename": "english.md",
+          "relativePath": "./memory/english.md",
+          "title": "중등 기초 영어 단어",
+          "subject": "영어",
+          "category": "vocabulary",
+          "tags": [
+            "영어",
+            "단어",
+            "중등",
+            "기초"
+          ],
+          "intervalSeconds": 3,
+          "itemCount": 10,
+          "reason": "오늘 일정과 최근 이력을 반영한 우선순위가 높아서 선택했습니다."
+        },
+        {
+          "slotIndex": 1,
+          "slotTitle": "StudySet 02",
+          "filename": "korean.md",
+          "relativePath": "./memory/korean.md",
+          "title": "국어 개념어",
+          "subject": "국어",
+          "category": "concept",
+          "tags": [
+            "국어",
+            "개념",
+            "독해",
+            "시험"
+          ],
+          "intervalSeconds": 3,
+          "itemCount": 10,
+          "reason": "첫 번째 선택과 겹치지 않으면서 복습 가치가 높아서 선택했습니다."
+        }
+      ],
+      "context": {
+        "weekday": "thursday",
+        "schoolSubjects": [
+          "과학",
+          "사회"
+        ],
+        "cramSubjects": [
+          "영어"
+        ]
+      },
+      "savedAt": "2026-03-31 15:50:46",
+      "fingerprint": "english.md|10|3|2026-03-31 15:33:00||hanmun.md|10|3|2026-03-31 15:33:00||idiom.md|10|3|2026-03-31 15:33:00||korean.md|10|3|2026-03-31 15:33:00||science.md|10|3|2026-03-31 15:33:00||social.md|10|3|2026-03-31 15:33:00",
+      "contextSignature": "{\"cramSubjects\": [\"영어\"], \"date\": \"2026-04-02\", \"schoolSubjects\": [\"과학\", \"사회\"], \"weekday\": \"thursday\"}"
+    },
+    {
+      "date": "2026-04-03",
+      "selectionSource": "fallback",
+      "selectionNote": "Gemini 선택이 없어서 규칙 기반으로 StudySet을 골랐습니다.",
+      "files": [
+        {
+          "slotIndex": 0,
+          "slotTitle": "StudySet 01",
+          "filename": "english.md",
+          "relativePath": "./memory/english.md",
+          "title": "중등 기초 영어 단어",
+          "subject": "영어",
+          "category": "vocabulary",
+          "tags": [
+            "영어",
+            "단어",
+            "중등",
+            "기초"
+          ],
+          "intervalSeconds": 3,
+          "itemCount": 10,
+          "reason": "오늘 일정과 최근 이력을 반영한 우선순위가 높아서 선택했습니다."
+        },
+        {
+          "slotIndex": 1,
+          "slotTitle": "StudySet 02",
+          "filename": "science.md",
+          "relativePath": "./memory/science.md",
+          "title": "과학 핵심 용어",
+          "subject": "과학",
+          "category": "concept",
+          "tags": [
+            "과학",
+            "용어",
+            "중등",
+            "시험"
+          ],
+          "intervalSeconds": 3,
+          "itemCount": 10,
+          "reason": "첫 번째 선택과 겹치지 않으면서 복습 가치가 높아서 선택했습니다."
+        }
+      ],
+      "context": {
+        "weekday": "friday",
+        "schoolSubjects": [
+          "영어",
+          "과학"
+        ],
+        "cramSubjects": [
+          "영어",
+          "수학"
+        ]
+      },
+      "savedAt": "2026-03-31 15:52:17",
+      "fingerprint": "english.md|10|3|2026-03-31 15:33:00||hanmun.md|10|3|2026-03-31 15:33:00||idiom.md|10|3|2026-03-31 15:33:00||korean.md|10|3|2026-03-31 15:33:00||science.md|10|3|2026-03-31 15:33:00||social.md|10|3|2026-03-31 15:33:00",
+      "contextSignature": "{\"cramSubjects\": [\"영어\", \"수학\"], \"date\": \"2026-04-03\", \"schoolSubjects\": [\"영어\", \"과학\"], \"weekday\": \"friday\"}"
+    },
+    {
+      "date": "2026-04-04",
+      "selectionSource": "gemini",
+      "selectionNote": "Gemini가 오늘 일정과 최근 이력을 바탕으로 StudySet을 골랐습니다.",
+      "files": [
+        {
+          "slotIndex": 0,
+          "slotTitle": "StudySet 01",
+          "filename": "korean.md",
+          "relativePath": "./memory/korean.md",
+          "title": "국어 개념어",
+          "subject": "국어",
+          "category": "concept",
+          "tags": [
+            "국어",
+            "개념",
+            "독해",
+            "시험"
+          ],
+          "intervalSeconds": 3,
+          "itemCount": 10,
+          "reason": "최근 선택 이력이 적어 복습 가치가 높습니다."
+        },
+        {
+          "slotIndex": 1,
+          "slotTitle": "StudySet 02",
+          "filename": "hanmun.md",
+          "relativePath": "./memory/hanmun.md",
+          "title": "한문 기초 어휘",
+          "subject": "한문",
+          "category": "language",
+          "tags": [
+            "한문",
+            "한자",
+            "국어",
+            "기초"
+          ],
+          "intervalSeconds": 3,
+          "itemCount": 10,
+          "reason": "오랫동안 선택되지 않아 학습이 필요합니다."
+        }
+      ],
+      "context": {
+        "weekday": "saturday",
+        "schoolSubjects": [
+          "영어",
+          "과학"
+        ],
+        "cramSubjects": [
+          "영어",
+          "수학"
+        ]
+      },
+      "savedAt": "2026-03-31 15:54:55",
+      "fingerprint": "english.md|10|3|2026-03-31 15:33:00||hanmun.md|10|3|2026-03-31 15:33:00||idiom.md|10|3|2026-03-31 15:33:00||korean.md|10|3|2026-03-31 15:33:00||science.md|10|3|2026-03-31 15:33:00||social.md|10|3|2026-03-31 15:33:00",
+      "contextSignature": "{\"cramSubjects\": [\"영어\", \"수학\"], \"date\": \"2026-04-04\", \"schoolSubjects\": [\"영어\", \"과학\"], \"weekday\": \"saturday\"}"
+    },
+    {
+      "date": "2026-03-31",
+      "selectionSource": "forced",
+      "selectionNote": "studyset-force.txt에서 지정한 파일을 우선 사용했습니다.",
+      "files": [
+        {
+          "slotIndex": 0,
+          "slotTitle": "StudySet 01",
+          "filename": "english.md",
+          "relativePath": "./memory/english.md",
+          "title": "중등 기초 영어 단어",
+          "subject": "영어",
+          "category": "vocabulary",
+          "tags": [
+            "영어",
+            "단어",
+            "중등",
+            "기초"
+          ],
+          "intervalSeconds": 3,
+          "itemCount": 10,
+          "reason": "studyset-force.txt에서 강제 지정했습니다."
+        },
+        {
+          "slotIndex": 1,
+          "slotTitle": "StudySet 02",
+          "filename": "korean.md",
+          "relativePath": "./memory/korean.md",
+          "title": "국어 개념어",
+          "subject": "국어",
+          "category": "concept",
+          "tags": [
+            "국어",
+            "개념",
+            "독해",
+            "시험"
+          ],
+          "intervalSeconds": 3,
+          "itemCount": 10,
+          "reason": "강제 지정 파일과 함께 볼 보조 StudySet을 자동으로 골랐습니다."
+        }
+      ],
+      "context": {
+        "weekday": "tuesday",
+        "schoolSubjects": [
+          "국어",
+          "가정",
+          "수학",
+          "영어",
+          "체육",
+          "주선B"
+        ],
+        "cramSubjects": [
+          "과학",
+          "영어"
+        ]
+      },
+      "savedAt": "2026-03-31 18:55:08",
+      "fingerprint": "english.md|10|3|2026-03-31 18:51:12||hanmun.md|10|3|2026-03-31 16:42:43||idiom.md|10|3|2026-03-31 16:42:43||korean.md|10|3|2026-03-31 16:42:43||science.md|10|3|2026-03-31 16:42:43||social.md|10|3|2026-03-31 16:42:43##[\"english.md\"]",
+      "contextSignature": "{\"cramSubjects\": [\"과학\", \"영어\"], \"date\": \"2026-03-31\", \"schoolSubjects\": [\"국어\", \"가정\", \"수학\", \"영어\", \"체육\", \"주선B\"], \"weekday\": \"tuesday\"}"
+    }
+  ]
+}
